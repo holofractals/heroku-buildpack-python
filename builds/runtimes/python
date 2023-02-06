@@ -61,8 +61,8 @@ cd src
 # for maximum compatibility / most battle-tested build configuration:
 # https://github.com/docker-library/python
 CONFIGURE_OPTS=(
-  # Support loadable extensions in the `_sqlite` extension module.
-  "--enable-loadable-sqlite-extensions"
+  # # Support loadable extensions in the `_sqlite` extension module.
+  # "--enable-loadable-sqlite-extensions"
   # Make autoconf's configure option validation more strict.
   "--enable-option-checking=fatal"
   # Install Python into `/app/.heroku/python` rather than the default of `/usr/local`.

@@ -3,4 +3,4 @@ cffi
 mysqlclient
 psycopg2
 pylibmc
-pysqlite3
+# pysqlite3
